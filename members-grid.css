@@ -1,0 +1,67 @@
+.people-landing-page{
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/5.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    font-size: 80px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 2fr 1fr 2fr;
+
+    gap: 16;
+}
+
+.People{
+    grid-column: 3 / span 6;
+    grid-row: 2 / span 1;
+
+    font-size: 60px;
+}
+
+.people-desc{
+    grid-column: 3 / span 6;
+    grid-row: 3 / span 1;
+
+    font-size: 20px;
+
+    animation: rollup 3s;
+}
+
+.members{
+    grid-column: 3 / span 12;
+    grid-row: 1 / span 1;
+
+    width: 80vw;
+    height: 80vh;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    background-color: white;
+}
+
+.M-1{
+    grid-column: 3 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.M-2{
+    grid-column: 8 / span 3;
+    grid-row: 1 / span 1;
+}
+
+/*.template{
+
+}*/
+
+
+
